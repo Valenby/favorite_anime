@@ -7,7 +7,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"Hello": "World"}
+    return {"Hunter x Hunter","Naruto","Bleach","Black clover","Jujutsu kaisen"}
 
 
 @app.get("/items/{item_id}")
